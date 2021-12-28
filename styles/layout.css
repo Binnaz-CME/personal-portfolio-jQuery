@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-layout {
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo-layout {
+  justify-self: center;
+}
+
+.footer-div-small-ul-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.main-home-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  align-items: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+/* Anpassning för ipad i portrait-view */
+@media (min-height: 1024px) {
+  body {
+    height: 100vh;
+  }
+
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  main > h2.margin-ipad-view {
+    margin-top: 5em;
+  }
+}
+
+/* Anapssining upp till 320px bredd */
+@media (max-width: 320px) {
+  body {
+    display: grid;
+  }
+}

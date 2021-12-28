@@ -1,0 +1,98 @@
+:root {
+  --main-highlight-color: rgba(201, 201, 201, 0.7);
+  --dark-highlight-color: rgba(68, 68, 68, 0.5);
+  --title-color: #775562;
+  --secondary-text-color: rgb(124, 116, 116);
+  --tertiary-text-color: white;
+  --hover-background-color: #beb7b7;
+  --active-background-color: #967e7e;
+}
+
+body {
+  background: url(Bilder/seigaiha.png);
+}
+
+header,
+footer {
+  background-color: var(--dark-highlight-color);
+}
+
+aside {
+  background-color: var(--main-highlight-color);
+}
+
+a {
+  color: var(--tertiary-text-color);
+}
+
+p a {
+  color: var(--secondary-text-color);
+}
+
+h3 {
+  color: var(--tertiary-text-color);
+}
+
+footer p a {
+  background-color: var(--main-highlight-color);
+}
+
+label {
+  color: var(--secondary-text-color);
+}
+
+textarea {
+  border-color: var(--main-highlight-color);
+}
+
+img.profile-photo-layout {
+  border-color: var(--main-highlight-color);
+}
+
+.title-color {
+  color: var(--title-color);
+}
+
+::placeholder {
+  color: var(--dark-highlight-color);
+}
+
+a:focus {
+  background: var(--tertiary-text-color);
+}
+
+a:hover {
+  background: var(--hover-background-color);
+}
+
+a:active {
+  background: var(--active-background-color);
+  color: var(--dark-highlight-color);
+}
+
+input[type="submit"] {
+  background-color: var(--active-background-color);
+  color: var(--tertiary-text-color);
+}
+
+input[type="email"] {
+  background-color: var(--main-highlight-color);
+  color: var(--tertiary-text-color);
+}
+
+input[type="submit"]:hover {
+  background: var(--hover-background-color);
+  border-color: var(--dark-highlight-color);
+}
+
+input[type="submit"]:active {
+  background: var(--active-background-color);
+}
+
+input[type="submit"] {
+  box-shadow: 6px 4px 4px var(--dark-highlight-color);
+}
+
+.card-content {
+  background-color: rgba(201, 201, 201, 0.6);
+}

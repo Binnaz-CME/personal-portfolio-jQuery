@@ -1,0 +1,27 @@
+div h2 {
+  margin: 0.5;
+}
+
+.card-images {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 0.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 1em 2em 1em;
+}
+
+.card-content {
+  line-height: 1.5;
+  padding: 0;
+  flex-grow: 1;
+}

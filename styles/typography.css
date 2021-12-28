@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%; /* font-size 1rem = 10px on default browser settings */
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.6rem;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+::placeholder {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.6rem;
+}
+
+.font-satisfy-small {
+  font-family: "Satisfy", cursive;
+  font-size: 1.8rem;
+}
+
+.font-satisfy-medium {
+  font-family: "Satisfy", cursive;
+  font-size: 2.2rem;
+}
+
+.font-satisfy-large {
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+}
+
+.font-oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 1.8rem;
+}
+
+input[type="submit"]:hover {
+  font-size: 1.6rem;
+}
