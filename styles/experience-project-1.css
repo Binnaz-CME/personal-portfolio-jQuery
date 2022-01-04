@@ -1,0 +1,98 @@
+.slider {
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider figure {
+  margin: 0px;
+  display: flex;
+  position: relative;
+  transition: 0.8s ease-in-out;
+  object-fit: cover;
+  height: 550px;
+}
+
+.slider figure img {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.btn-next,
+.btn-prev {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  padding: 1em;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.btn-next:hover,
+.btn-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+}
+
+.btn-next {
+  right: 0.5em;
+}
+
+.btn-prev {
+  left: 0.5em;
+}
+
+/* The modal background */
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding: 100px;
+  left: 0;
+  top: 0;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal images */
+.modal-content {
+  object-fit: cover;
+  height: auto;
+  animation-name: zoom;
+  animation-duration: 1s;
+  margin: 0.5em;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  padding: 0.7em 0;
+}
+
+.indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  background: rgba(94, 54, 54, 0.527);
+  margin: 0 12px;
+}
+
+.indicator.current {
+  background: rgba(122, 77, 77, 0.9);
+  width: 1.4em;
+  height: 1.4em;
+}

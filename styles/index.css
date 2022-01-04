@@ -76,6 +76,10 @@ img.profile-photo-layout {
   box-shadow: 6px 4px 4px var(--dark-highlight-color);
 }
 
+.hide-menu {
+  display: none;
+}
+
 a:hover {
   transition: 0.5s;
 }

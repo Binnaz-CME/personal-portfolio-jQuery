@@ -17,6 +17,12 @@ aside {
   align-items: center;
 }
 
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .logo-layout {
   justify-content: center;
   align-items: center;
