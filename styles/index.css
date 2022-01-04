@@ -80,6 +80,10 @@ img.profile-photo-layout {
   display: none;
 }
 
+.menu {
+  cursor: pointer;
+}
+
 a:hover {
   transition: 0.5s;
 }
