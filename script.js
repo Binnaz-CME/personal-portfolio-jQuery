@@ -1,12 +1,12 @@
+$('.menu').click(function (e) {
+  $('.menu').toggleClass('hide-menu');
+  $('.list-item').toggleClass('hide-menu');
+});
+
 $('.slider').slick({
   dots: true,
   prevArrow: '<button class="slide-arrow prev-arrow"></button>',
   nextArrow: '<button class="slide-arrow next-arrow"></button>',
-});
-
-$('.menu').click(function () {
-  $('.menu').toggleClass('hide-menu');
-  $('.list-item').toggleClass('hide-menu');
 });
 
 $('.sliderimg').click(function (e) {
