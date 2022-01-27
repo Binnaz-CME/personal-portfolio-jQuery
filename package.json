@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio-jquery",
+  "version": "1.0.0",
+  "description": "Kunskapskontroll 1 Personal portfolio template for future projects. My very first HTML/CSS project.",
+  "main": "script.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binnaz-CME/personal-portfolio-jQuery.git"
+  },
+  "author": "Binnaz Akyüz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Binnaz-CME/personal-portfolio-jQuery/issues"
+  },
+  "homepage": "https://github.com/Binnaz-CME/personal-portfolio-jQuery#readme",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
