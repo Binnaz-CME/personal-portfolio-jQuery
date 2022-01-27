@@ -10,13 +10,13 @@ button {
 }
 
 .slider {
-  width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .sliderimg {
   object-fit: cover;
-  height: 500px !important;
+  height: 500px; /*important*/
 }
 
 .prev-arrow {
@@ -55,17 +55,6 @@ button {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.modal-content {
-  animation-name: zoom;
-  animation-duration: 2s;
+/* .modal-content {
   margin: 0.5em;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
+} */

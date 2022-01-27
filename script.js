@@ -5,23 +5,26 @@ $('.menu').click(function (e) {
 
 $('.slider').slick({
   dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
   prevArrow: '<button class="slide-arrow prev-arrow"></button>',
   nextArrow: '<button class="slide-arrow next-arrow"></button>',
 });
 
 $('.sliderimg').click(function (e) {
   $('#myModal').addClass('modal');
-  $('.sliderimg').addClass('modal-content');
+  // $('.sliderimg').addClass('modal-content');
 
   // if (e.target === e.currentTarget) {
-  //   $('#myModal').removeClass('modal');
-  //   $('.sliderimg').removeClass('modal-content');
+    // $('#myModal').removeClass('modal');
+    // $('.sliderimg').removeClass('modal-content');
   // }
 });
 
 $('body').keydown(function (e) {
   if (e.key === 'Escape') {
     $('#myModal').removeClass('modal');
-    $('div > img').removeClass('modal-content');
+    // $('.sliderimg').removeClass('modal-content');
   }
 });
