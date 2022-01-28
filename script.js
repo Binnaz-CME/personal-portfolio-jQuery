@@ -14,17 +14,10 @@ $('.slider').slick({
 
 $('.sliderimg').click(function (e) {
   $('#myModal').addClass('modal');
-  // $('.sliderimg').addClass('modal-content');
-
-  // if (e.target === e.currentTarget) {
-    // $('#myModal').removeClass('modal');
-    // $('.sliderimg').removeClass('modal-content');
-  // }
 });
 
 $('body').keydown(function (e) {
   if (e.key === 'Escape') {
     $('#myModal').removeClass('modal');
-    // $('.sliderimg').removeClass('modal-content');
   }
 });
